@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\characters" />
+    <Folder Include="wwwroot\images\games" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\images\characters\5fbfbc42050b1618bcdd71d8\dracula.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\characters\5fc96273ee692a22bd81804e\Screenshot from 2020-10-09 11-55-31.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fbccd3a27685dd527586fe6\dracula.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fbccd3a27685dd527586fe6\one.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fc7f9a7d77940a5e505bf54\dracula.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fc7fc27ae418effa66ebbaf\dracula.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fc828bafd025e526c2c34ca\logo192.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fc828bafd025e526c2c34ca\logo512.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fc828bafd025e526c2c34ca\one.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\games\5fc828bafd025e526c2c34ca\Screenshot from 2020-09-15 09-09-59.png" />
+  </ItemGroup>
+
+
+</Project>
